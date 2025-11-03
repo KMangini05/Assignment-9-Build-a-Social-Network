@@ -1,0 +1,17 @@
+Design Memo
+1.Why is a graph the right structure to represent social network?
+A graph was the right structure because when it comes to social networks, people are connected in multiple different ways.
+This can often form complex graphs/patterns that need to be deciphered, which is exactly what graphs can be used to do.
+Graphs are also great to use because social networks aren't that simple, while people may be connected, not all are connected in the same or stronger areas.
+For example, friendships are a stronger bond than say a coworker; so graphs can group people together using this information.
+
+2.Why wouldn't a list or tree work as well for this?
+A list wouldn't work because it wouldn't be able to show the connections between people.
+For example, a list could print Alex, Jordan, and Morgan, but it wouldn't be able to figure out the connection to let us know that Alex is friends with Jordan (which is the whole point of social networks).
+A tree wouldn't work because they are used for a hierarchy of things.
+In a social network, no one is above another because anyone can connect to any person listed in the social network.
+
+3.What performance or structural trade-offs did you notice when adding friends or printing the network?
+Something I specifically noticed was the performance of the printing network.
+When it came to printing the network, the print function has to filter through every person and all their friends.
+This is alright when it come to a small social network but once they start to get larger, it might be difficult for the function to filter through the network quickly.
